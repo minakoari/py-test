@@ -28,4 +28,5 @@ jobs:
       - name: Python tests
         uses: minakoari/actions-test@main
         with:
-          args: --type=pytest
+          test_type: pytest
+          #args: --type=pytest
